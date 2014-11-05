@@ -16,24 +16,42 @@ a:visited {
   color: red;
 }
 
-.wrapper {
+section {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  font-family: 'Arimo', sans-serif;
+}
+
+
+
+/***********  HEADER  *************/
+
+.header {
+  text-align: center;
+  font-size: 54px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 
 
 /***********  ALBUM MODULE  *************/
 
-.albums {
+.album-block {
   width: 380px;
   height: 600px;
   display: inline-block;
   background: transparent;
 }
 
-.caption {
+.album-block__caption {
   padding: 5px;
   border: 3px solid gray;
   color: white;
@@ -50,11 +68,11 @@ a:visited {
   opacity: .75;
 }
 
-.description {
+.album-block p {
   color: white;
 }
 
-.btn {
+.album-block__button {
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -74,28 +92,15 @@ a:visited {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=1 );
 }
 
-
-
-/***********  ALBUM MODULE  *************/
-
-.winner {
-  width: 300px;
-  height: 300px;
+.album-block img {
+  width: 95%;
 }
 
-.header {
-  text-align: center;
-  font-size: 54px;
-  background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
-.title {
-  text-align: center;
-  color: white;
-  font-family: 'Arimo', sans-serif;
-}
+
+
+
+
 
 
 
